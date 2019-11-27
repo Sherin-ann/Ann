@@ -35,11 +35,11 @@ i=0                                                             #counter for the
 
 while i<length_para:						#convert the paragraph usings the rules defined in the function rules()
         if i+1 != length_para:
-                if words[i] in tup.keys() and (len(words[i+1])==1):
-                        print((words[i+1])*tup[words[i]], end=" ")
+                if (words[i].lower()) in tup.keys() and (len(words[i+1])==1):
+                        print((words[i+1])*tup[words[i].lower()], end=" ")
                         i=i+2
-                elif words[i] in num.keys() and (words[i+1] in curr.keys()):
-                        print(curr[words[i+1]]+str(num[words[i]]), end=" ")
+                elif words[i].lower() in num.keys() and (words[i+1] in curr.keys()):
+                        print(curr[words[i+1]]+str(num[words[i].lower()]), end=" ")
                         i=i+2
                 elif ((words[i]+" "+words[i+1]) in abbre.keys()):
                         print((words[i]+words[i+1]), end =" ")

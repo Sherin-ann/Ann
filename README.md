@@ -6,8 +6,9 @@ This module converts spoken currencies like dollars, rupees, euros to their resp
 For example, dollars to $, rupees to ₹,  percent to % and euros to € is incorporated in this module.
 
 The other features include:
+<br>
 Abbreviations spoken as C M are converted to CM. Similarly abbreviations like P M and A M
-are converted to their proper forms.
+are converted to their proper forms.<br>
 Tuples used in the paragraph are read in a way that the corresponding quantity is multiplied said-fold. For example, triple A is converted to AAA and so on.
 Numbers used before currencies and percent are converted to their corresponding figures. For example, five dollars is converted to $5, and so on.
 

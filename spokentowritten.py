@@ -20,34 +20,38 @@ def rules():
                 }
     return fullform
 
-fullform=rules()
+def para_convert():
+        fullform=rules()
 
-para=input("Enter the paragraph you wish to convert: \n")	#enter the paragraph 
-words = para.split(" ")						#store each word in a list
-num=fullform['num']
-tup=fullform['tup']
-abbre=fullform['abbre']
-curr=fullform['currency']
-length_para=len(words)						#length of paragraph
+        para=input("\n\tEnter the paragraph you wish to convert: \n")	#enter the paragraph 
+        words = para.split(" ")						#store each word in a list
+        num=fullform['num']
+        tup=fullform['tup']
+        abbre=fullform['abbre']
+        curr=fullform['currency']
+        length_para=len(words)						#length of paragraph
 
-print("\n\tHere is your spoken to written english paragraph: \n")
-i=0                                                             #counter for the loop
+        print("\n\tHere is your spoken to written english paragraph: \n")
+        i=0                                                             #counter for the loop
 
-while i<length_para:						#convert the paragraph usings the rules defined in the function rules()
-        if i+1 != length_para:
-                if (words[i].lower()) in tup.keys() and (len(words[i+1])==1):
-                        print((words[i+1])*tup[words[i].lower()], end=" ")
-                        i=i+2
-                elif words[i].lower() in num.keys() and (words[i+1] in curr.keys()):
-                        print(curr[words[i+1]]+str(num[words[i].lower()]), end=" ")
-                        i=i+2
-                elif ((words[i]+" "+words[i+1]) in abbre.keys()):
-                        print((words[i]+words[i+1]), end =" ")
-                        i+=2
+        while i<length_para:						#convert the paragraph usings the rules defined in the function rules()
+                if i+1 != length_para:
+                        if (words[i].lower()) in tup.keys() and (len(words[i+1])==1):
+                                print((words[i+1])*tup[words[i].lower()], end=" ")
+                                i=i+2
+                        elif words[i].lower() in num.keys() and (words[i+1] in curr.keys()):
+                                print(curr[words[i+1]]+str(num[words[i].lower()]), end=" ")
+                                i=i+2
+                        elif ((words[i]+" "+words[i+1]) in abbre.keys()):
+                                print((words[i]+words[i+1]), end =" ")
+                                i+=2
+                        else:
+                                print(words[i], end=" ")
+                                i=i+1
                 else:
                         print(words[i], end=" ")
                         i=i+1
-        else:
-                print(words[i], end=" ")
-                i=i+1
-print("\n")
+        print("\n")
+
+
+

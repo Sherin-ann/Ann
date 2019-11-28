@@ -1,4 +1,4 @@
-<h2>Spoken english to written english</h2><hr>
+<h2>Spoken english to written english</h2>
 
 <i>spokentowritten</i> is a python module or a reusable library which can be used to convert a paragraph of spoken english to written english. 
 
@@ -10,14 +10,14 @@ Abbreviations spoken as C M are converted to CM. Similarly abbreviations like P 
 Tuples used in the paragraph are read in a way that the corresponding quantity is multiplied said-fold. For example, triple A is converted to AAA and so on.<br>
 Numbers used before currencies and percent are converted to their corresponding figures. For example, five dollars is converted to $5, and so on.<br>
 
-<h2>Usage:</h2><hr>
+<h2>Usage:</h2>
 You can import this module in your python program as:
 
 ```python3
 import spokentowritten as stw
 stw.para_convert()
 ```
-<h2>Features to be implemented in future versions include:</h2><hr>
+<h2>Features to be implemented in future versions include:</h2>
 Handling punctuation marks and spaces in the paragraph<br>
 Handling case conversions (uppercase/lowercase sensitive) for the attributes to be converted<br>
 Including other symbols like alpha, beta, gamma etc.,<br>

@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 #########################################################################
-##    Author: Sherin Ann Eapen                                         ##
 ##    Program to convert spoken english to written english             ##
 #########################################################################
 
@@ -34,7 +33,7 @@ def para_convert():
         print("\n\tHere is your spoken to written english paragraph: \n")
         i=0                                                             #counter for the loop
 
-        while i<length_para:						#convert the paragraph usings the rules defined in the function rules()
+        while i<length_para:						#convert the paragraph using the rules defined in the function rules()
                 if i+1 != length_para:
                         if (words[i].lower()) in tup.keys() and (len(words[i+1])==1):
                                 print((words[i+1])*tup[words[i].lower()], end=" ")

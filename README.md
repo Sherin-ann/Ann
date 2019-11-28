@@ -20,8 +20,22 @@ You can import this module in your python program as:
 import spokentowritten as stw
 stw.para_convert()
 ```
+You will be asked to type in the paragraph to convert:
+
+```
+  Enter the paragraph you wish to convert:
+Hello all! I love dogs. My mom gave me hundred rupees to buy something for the dogs down my apartment. I lost it on my way to the store. Please contact me if you find it on: double 9 double 6 triple 5 triple 3 . I lost the money around 11 A M .
+```
+you will see the output as:
+
+```
+	Here is your spoken to written english paragraph: 
+
+Hello all! I love dogs. My mom gave me ₹100 to buy something for the dogs down my apartment. I lost it on my way to the store. Please contact me if you find it on: 99 66 555 333 . I lost the money around 11 AM . 
+```
+
 <h2>Features to be implemented in future versions include:</h2>
-Handling punctuation marks and spaces in the paragraph<br>
+Handling punctuation rules and spaces in the paragraph<br>
 Handling case conversions (uppercase/lowercase sensitive) for the attributes to be converted<br>
 Including other symbols like alpha, beta, gamma etc.,<br>
 Handling date and time<br>

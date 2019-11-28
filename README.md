@@ -10,6 +10,9 @@ Abbreviations spoken as C M are converted to CM. Similarly abbreviations like P 
 Tuples used in the paragraph are read in a way that the corresponding quantity is multiplied said-fold. For example, triple A is converted to AAA and so on.<br>
 Numbers used before currencies and percent are converted to their corresponding figures. For example, five dollars is converted to $5, and so on.<br>
 
+<h2>Download</h2>
+Download <i>spokentowritten.py</i> and save it in the same directory as your python program. Follow the steps mentioned in the usage below to use this module in your program.
+
 <h2>Usage:</h2>
 You can import this module in your python program as:
 

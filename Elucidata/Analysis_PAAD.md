@@ -7,7 +7,12 @@
   <li>And finally, the dataset containing only adenocarcinomas and no neuroendocrine tumor samples are retrieved (source code: Adenocarcinoma.ipynb)
   </ul>
   </h5>
-  
+  <h3>Gene Expression plot: </h3>
+<img src="geneexplot.png" width="420" height="400"/>
+  <h5><ul type="disc">
+  <li>The plot above shows the gene expression of the pancreatic adenocarcinoma dataset</li>
+  </ul>
+  </h5>
   
   
 

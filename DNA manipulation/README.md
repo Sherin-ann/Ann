@@ -7,4 +7,4 @@
 <dt>Complement</dt>
 <dd>Complementary base pairing is seen in DNA, where A (adenine) pairs with T (thymine) or U (uracil) and vice versa, and G (guanine) pairs with C (cytosine) and vice versa. The program stores the base and its complement as key value pairs in a dictionary. It then iterates over the sequence and replaces the instances of a base with its corresponding complement base. </dd>
 <dt>GC Content</dt>
-<dd>The program calculates the total GC content of the input sequence. GC Content determines the stability of the molecule.</dd>
+<dd>The program calculates the total GC content of the input sequence using the basic count function.</dd>

@@ -1,5 +1,5 @@
 #usage python3 frequency_aa.py
-def freq():
+def freq(s):
 	s = s.lower(s)
 	l = len(s)
   c_m = s.count('m')

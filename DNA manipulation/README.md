@@ -9,6 +9,6 @@
 <h3><dt>Complement</dt></h3>
 <dd>Complementary base pairing is seen in DNA, where A (adenine) pairs with T (thymine) or U (uracil) and vice versa, and G (guanine) pairs with C (cytosine) and vice versa. The program <i>complement.py</i> stores the base and its complement as key value pairs in a dictionary. It then iterates over the sequence and replaces the instances of a base with its corresponding complement base. </dd>
 
-<h3><dt>GC Content</dt>
+<h3><dt>GC Content</dt></h3>
 <dd>The program <i>gc_count.py</i> calculates the total GC content of the input sequence using the basic count function.</dd>
 </dl>

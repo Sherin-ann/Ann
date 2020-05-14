@@ -27,3 +27,4 @@ s = input("Enter protein sequence: ")
 #function call
 weight(s)
 charge(s)
+
